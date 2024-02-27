@@ -6,6 +6,7 @@ import UrgentCarService from "./Urganet Car Service/UrgentCarService";
 import HowIsWork from "./HowWorks/HowIsWork";
 import AboutUs from './About Us/AboutUs';
 import PatienLoveUse from "./Patient Love Us/PatienLoveUs";
+import FrequentQuestions from "./Frequent Questions/FrequentQuestions";
 const HomePage = ()=>{
     return (
        <div>
@@ -25,8 +26,11 @@ const HomePage = ()=>{
              <div>
                <AboutUs/>
              </div>
-             <div className="border border-red-500 my-14 mx-16">
+             <div className="my-14 mx-16">
                <PatienLoveUse/>
+             </div>
+             <div className="m-6">
+                   <FrequentQuestions/>
              </div>
        </div>
     )
